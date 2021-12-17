@@ -1,51 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <header>
-        <div class="logo_div">
+<body id="contact_body">
+    <header class="contact_header">
+        <div class="logo_div inline_block ">
             <a href="index.html"><img  class="logo" src="imgs/Group5.svg" alt="html_logo"></a>
         </div>
-        <nav class="main_nav">
+        <nav class="main_nav inline_block">
             <ul>
-                <li><a href="index.html">მთავარი</a></li>
-                <li> <a href="news.html">სიახლეები</a></li>
-                <li><a class="third_li"  href="contact.html">კონტაქტი</a></li> 
+                <li class="inline_block"><a  href="index.html">მთავარი</a></li>
+                <li class="inline_block"> <a  href="news.html">სიახლეები</a></li>
+                <li class="inline_block" ><a  class="third_li "  href="contact.html">კონტაქტი</a></li> 
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <address>
-                <h4></h4>
+    <main id="contact_main">
+        <div class="contact_div inline_block">
+            <address class="inline_block">
+                <h3 class="contact_tittle">საკონტაქტო ინფორმაცია: </h3>
                 <ul>
                     <li>
-                        <span></span>
-                        <a href=""></a>
+                        <span>მისამართი:</span>
+                        <a href=https://goo.gl/maps/dZZjXL74tya2Ywyg9 target="_blank">პეტრიაშვილის ქ. 30</a>
                     </li>
                     <li>
-                        <span></span>
-                        <a href=""> </a>
+                        <span>ტელ.</span>
+                        <a href="tel: +995 32 222 222"> +995 32 222 222</a>
                     </li>
                     <li>
-                        <span></span>
-                        <a href=""></a>
+                        <span>ელ. ფოსტა:</span>
+                        <a href="mailto:jokhadzemeri1@gmail.com">jokhadzemeri1@gmail.com</a>
                     </li>
                 </ul>
             </address>
-            <div>
-
-            </div>
         </div>
+        <div class="iframe_div inline_block">
+            <iframe class="inline_block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.6866268227313!2d44.779990804903896!3d41.70570026157853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cce279d4447%3A0x5dbd3cd2172832a9!2sVasil%20Petriashvili%20Street%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1639740508182!5m2!1sen!2sge" width="874" height="466" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        
     </main>
-    <footer>
+    <footer class="contact_footer">
         <div class="facebook inline_block">
             <a href="#"><img src="imgs/fb.svg" alt="fb_logo"></a>
         </div>
